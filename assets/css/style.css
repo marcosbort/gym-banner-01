@@ -57,7 +57,7 @@ body {
     font-size: 60px;
     letter-spacing: 1;
     color: #00defe;
-    top: 0px;
+    top: 20px;
     right: 50px;
 }
 
@@ -68,16 +68,42 @@ body {
     font-size: 60px;
     letter-spacing: 1;
     color: #ffffff;
-    top: 60px;
+    top: 80px;
     right: 50px;
 }
+.banner__logo {
+    position: absolute;
+    top: 176px;
+    right: 25px;
+}
 
+/* .banner__title-1 {
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 60px;
+	letter-spacing: 1;
+	color: #00defe;
+	top: 101px;
+	right: 50px;
+}
+
+.banner__title-2 {
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 60px;
+	letter-spacing: 1;
+	color: #ffffff;
+	top: 160px;
+	right: 50px;
+}
 
 .banner__logo {
 	position: absolute;
-	top: 156px;
+	top: 5px;
 	right: 25px;
-}
+} */
 
 
 
@@ -100,7 +126,7 @@ body {
 	right: 16px;
 }
 .banner__cta__neon {
-    display: none;
+    /* display: none; */
 	position: absolute;
 	top: 0px;
 	right: -1px;
