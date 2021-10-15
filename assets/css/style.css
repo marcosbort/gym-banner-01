@@ -1,0 +1,191 @@
+html {
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+  
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-color: #393939; */
+    /* background-color: #251923de; */
+    background-image: linear-gradient(to right, rgb(153, 145, 227) 0%, #641055de 100%);
+}
+
+.banner__container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__content {
+    margin: 0px auto;
+    width: 1000px;
+    height: 562px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -5px 5px 30px #3f0a35;
+}
+
+.banner__bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -3;
+}
+
+.banner__neon-image {
+	position: absolute;
+	top: 85px;
+	left: 108px;
+}
+
+.banner__title-1 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    letter-spacing: 1;
+    color: #00defe;
+    top: 0px;
+    right: 50px;
+}
+
+.banner__title-2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    letter-spacing: 1;
+    color: #ffffff;
+    top: 60px;
+    right: 50px;
+}
+
+.banner__logo {
+	position: absolute;
+	top: 156px;
+	right: 25px;
+}
+
+.banner__cta {
+	position: absolute;
+	top: 326px;
+	right: 194px;
+}
+    .banner__cta__text {
+        position: absolute;
+        color: white;
+        /* font-family: sans-serif; */
+        font-family: 'Bebas Neue', cursive;
+        top: 8px;
+        left: 64px;
+    }
+    
+    .banner__social {
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+    }
+    .banner__social__icon {
+        padding: 2px;
+    }
+    
+    .banner__contact-number {
+        position: absolute;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        bottom: 10px;
+        right: 40px;
+    }
+
+.banner__web-site {
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    bottom: 26px;
+    right: 440px;
+}
+
+
+
+
+/*------------------------------------------------------------------
+    Circles
+-------------------------------------------------------------------*/
+    
+.circle {
+    mix-blend-mode: overlay;
+}
+
+.banner__circles-top {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+
+.banner__circles-bottom {
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+}
+
+.banner__circles-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.banner__circles-2 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.banner__circles-3 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.banner__circles-4 {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+
+
+.banner__circles-5 {
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+}
+
+.banner__circles-6 {
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+}
+
+.banner__circles-7 {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.banner__circles-8 {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
