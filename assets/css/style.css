@@ -72,42 +72,58 @@ body {
     right: 50px;
 }
 
+
 .banner__logo {
 	position: absolute;
 	top: 156px;
 	right: 25px;
 }
 
+
+
 .banner__cta {
-	position: absolute;
-	top: 326px;
-	right: 194px;
+    position: absolute;
+    top: 317px;
+    right: 207px;
 }
-    .banner__cta__text {
-        position: absolute;
-        color: white;
-        /* font-family: sans-serif; */
-        font-family: 'Bebas Neue', cursive;
-        top: 8px;
-        left: 64px;
-    }
-    
-    .banner__social {
-        position: absolute;
-        bottom: 25px;
-        left: 25px;
-    }
-    .banner__social__icon {
-        padding: 2px;
-    }
-    
-    .banner__contact-number {
-        position: absolute;
-        color: white;
-        font-family: 'Bebas Neue', cursive;
-        bottom: 10px;
-        right: 40px;
-    }
+.banner__cta__text {
+	position: absolute;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	top: 8px;
+	left: -156px;
+	z-index: 2;
+}
+.banner__cta__border {
+	position: absolute;
+	top: 15px;
+	right: 16px;
+}
+.banner__cta__neon {
+    display: none;
+	position: absolute;
+	top: 0px;
+	right: -1px;
+}
+
+
+.banner__social {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+.banner__social__icon {
+    padding: 2px;
+}
+
+.banner__contact-number {
+    position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    bottom: 10px;
+    right: 52px;
+}
 
 .banner__web-site {
     position: absolute;
