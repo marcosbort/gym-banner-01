@@ -51,6 +51,11 @@ body {
     --animate-duration: 1s;
 }
 
+.banner__neon__image__box {
+    --animate-duration: 0.5s;
+
+}
+
 .banner__title-1 {
     position: absolute;
     text-transform: uppercase;
@@ -81,34 +86,6 @@ body {
     --animate-duration: 1s;
 }
 
-/* .banner__title-1 {
-	position: absolute;
-	text-transform: uppercase;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 60px;
-	letter-spacing: 1;
-	color: #00defe;
-	top: 101px;
-	right: 50px;
-}
-
-.banner__title-2 {
-	position: absolute;
-	text-transform: uppercase;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 60px;
-	letter-spacing: 1;
-	color: #ffffff;
-	top: 160px;
-	right: 50px;
-}
-
-.banner__logo {
-	position: absolute;
-	top: 5px;
-	right: 25px;
-} */
-
 /* CTA */
 
 .banner__cta {
@@ -116,6 +93,7 @@ body {
     position: absolute;
     top: 317px;
     right: 207px;
+    --animate-duration: 2s;
 }
 .banner__cta__text {
 	position: absolute;
@@ -136,9 +114,11 @@ body {
 	top: 0px;
 	right: -1px;
     --animate-duration: 1s;
-
 }
 
+.banner__cta__neon__box {
+    --animate-duration: 0.5s;
+}
 
 .banner__social {
     position: absolute;
