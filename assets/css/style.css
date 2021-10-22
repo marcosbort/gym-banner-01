@@ -22,7 +22,7 @@ body {
 
 .banner__container {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +32,8 @@ body {
     margin: 0px auto;
     width: 1000px;
     height: 562px;
+    /* width: 800px;
+    height: 450px; */
     position: relative;
     overflow: hidden;
     box-shadow: -5px 5px 30px #3f0a35;
