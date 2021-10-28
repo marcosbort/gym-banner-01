@@ -30,10 +30,10 @@ body {
 
 .banner__content {
     margin: 0px auto;
-    width: 1000px;
-    height: 562px;
-    /* width: 800px;
-    height: 450px; */
+    /* width: 1000px;
+    height: 562px; */
+    width: 800px;
+    height: 450px;
     position: relative;
     overflow: hidden;
     box-shadow: -5px 5px 30px #3f0a35;
@@ -41,6 +41,7 @@ body {
 
 .banner__bg {
     position: absolute;
+    width: 100%;
     top: 0px;
     left: 0px;
     z-index: -3;
@@ -48,8 +49,7 @@ body {
 
 .banner__neon-image {
 	position: absolute;
-	top: 85px;
-	left: 108px;
+    width: 100%;
     --animate-duration: 1s;
 }
 
@@ -59,43 +59,45 @@ body {
 }
 
 .banner__title-1 {
-    position: absolute;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
-    letter-spacing: 1;
-    color: #00defe;
-    top: 20px;
-    right: 50px;
-    --animate-duration: 1s;
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 53px;
+	letter-spacing: 1;
+	color: #00defe;
+	top: 9px;
+	right: 28px;
+	--animate-duration: 1s;
+    z-index: 10;
 }
 
 .banner__title-2 {
-    position: absolute;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
-    letter-spacing: 1;
-    color: #ffffff;
-    top: 80px;
-    right: 50px;
-    --animate-duration: 1s;
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 53px;
+	letter-spacing: 1;
+	color: #ffffff;
+	top: 63px;
+	right: 28px;
+	--animate-duration: 1s;
+    z-index: 10;
 }
 .banner__logo {
     position: absolute;
-    top: 176px;
-    right: 25px;
     --animate-duration: 1s;
 }
 
 /* CTA */
 
 .banner__cta {
-    display: block;
-    position: absolute;
-    top: 317px;
-    right: 207px;
-    --animate-duration: 2s;
+	display: block;
+	position: absolute;
+	top: 259px;
+	right: 139px;
+	--animate-duration: 2s;
+    cursor: pointer;
+	z-index: 5;
 }
 .banner__cta__text {
 	position: absolute;
@@ -107,11 +109,11 @@ body {
 }
 .banner__cta__border {
 	position: absolute;
+    /* width: 100%; */
 	top: 15px;
 	right: 16px;
 }
 .banner__cta__neon {
-    /* display: none; */
 	position: absolute;
 	top: 0px;
 	right: -1px;
@@ -129,6 +131,7 @@ body {
 }
 .banner__social__icon {
     padding: 2px;
+    cursor: pointer;
 }
 
 .banner__social__icon .icon-1 {
@@ -154,12 +157,13 @@ body {
 }
 
 .banner__web-site {
-    position: absolute;
-    color: white;
-    font-family: sans-serif;
-    text-decoration: none;
-    bottom: 26px;
-    right: 433px;
+	position: absolute;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	bottom: 30px;
+	right: 327px;
+	z-index: 5;
 }
 
 
