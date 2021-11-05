@@ -15,19 +15,21 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* background-color: #393939; */
-    /* background-color: #251923de; */
     background-image: linear-gradient(to right, rgb(153, 145, 227) 0%, #641055de 100%);
 }
 
 .banner__container {
     width: 100vw;
-    height: 95vh;
+    height: 96vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-image: linear-gradient(to right, rgb(153, 145, 227) 0%, #641055de 100%); */
 }
 
+/*------------------------------------------------------------------
+    Horizontal Version
+-------------------------------------------------------------------*/
 .banner__content {
     margin: 0px auto;
     /* width: 1000px;
@@ -37,6 +39,7 @@ body {
     position: relative;
     overflow: hidden;
     box-shadow: -5px 5px 30px #3f0a35;
+    
 }
 
 .banner__bg {
@@ -89,7 +92,6 @@ body {
 }
 
 /* CTA */
-
 .banner__cta {
 	display: block;
 	position: absolute;
@@ -167,12 +169,7 @@ body {
 }
 
 
-
-
-/*------------------------------------------------------------------
-    Circles
--------------------------------------------------------------------*/
-    
+/* Circles */
 .circle {
     mix-blend-mode: overlay;
 }
@@ -217,7 +214,6 @@ body {
     --animate-duration: 2s;
 }
 
-
 .banner__circles-5 {
     position: absolute;
     bottom: 90px;
@@ -244,4 +240,67 @@ body {
     bottom: 0;
     right: 0px;
     --animate-duration: 0.5s;
+}
+
+/*------------------------------------------------------------------
+    Vertical Version
+-------------------------------------------------------------------*/
+.banner-vertical__content {
+    position: relative;
+    width: 495px;
+    height: 700px;
+    overflow: hidden;
+    box-shadow: -5px 5px 30px #3f0a35;
+}
+
+.banner-vertical__bg,
+.banner-vertical__title-1,
+.banner-vertical__title-2,
+.banner-vertical__logo,
+.banner-vertical__cta,
+.banner-vertical__cta-neon,
+.banner-vertical__neon-image,
+.banner-vertical__social-icons,
+.banner-vertical__web-site,
+.banner-vertical__number,
+.banner-vertical__circles-top,
+.banner-vertical__circles-bottom {
+    position: absolute;
+    width: 100%;
+}
+
+.banner-vertical__circles-top,
+.banner-vertical__circles-bottom {
+    mix-blend-mode: overlay;
+}
+
+.banner-vertical__cta-neon__box,
+.banner-vertical__neon-image__box {
+    --animate-duration: 0.5s
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------
+    Media Queries
+-------------------------------------------------------------------*/
+@media (min-width: 800px) {
+    .banner-vertical__content {
+        display: none;
+    }
+}
+
+@media (max-width: 799px) {
+    .banner__content {
+        display: none;
+    }
+}
+
+@media (max-width: 495px) {
+    .banner-vertical__content {
+        box-shadow: none;
+    }
 }
