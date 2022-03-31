@@ -48,8 +48,8 @@ body {
 
 .banner__neon-image {
 	position: absolute;
-    width: 100%;
-    --animate-duration: 1s;
+	width: 100%;
+	--animate-duration: 1s;
 }
 
 .banner__neon__image__box {
@@ -67,7 +67,7 @@ body {
 	top: 9px;
 	right: 28px;
 	--animate-duration: 1s;
-  	z-index: 10;
+	z-index: 10;
 }
 
 .banner__title-2 {
@@ -80,11 +80,11 @@ body {
 	top: 63px;
 	right: 28px;
 	--animate-duration: 1s;
-    z-index: 10;
+	z-index: 10;
 }
 .banner__logo {
-    position: absolute;
-    --animate-duration: 1s;
+	position: absolute;
+	--animate-duration: 1s;
 }
 
 /* CTA */
@@ -94,7 +94,7 @@ body {
 	top: 259px;
 	right: 139px;
 	--animate-duration: 2s;
-    cursor: pointer;
+	cursor: pointer;
 	z-index: 5;
 }
 .banner__cta__text {
