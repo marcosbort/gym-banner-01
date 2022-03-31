@@ -24,7 +24,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: linear-gradient(to right, rgb(153, 145, 227) 0%, #641055de 100%); */
 }
 
 /*------------------------------------------------------------------
@@ -32,8 +31,6 @@ body {
 -------------------------------------------------------------------*/
 .banner__content {
     margin: 0px auto;
-    /* width: 1000px;
-    height: 562px; */
     width: 800px;
     height: 450px;
     position: relative;
@@ -70,7 +67,7 @@ body {
 	top: 9px;
 	right: 28px;
 	--animate-duration: 1s;
-    z-index: 10;
+  	z-index: 10;
 }
 
 .banner__title-2 {
@@ -110,7 +107,6 @@ body {
 }
 .banner__cta__border {
 	position: absolute;
-    /* width: 100%; */
 	top: 15px;
 	right: 16px;
 }
