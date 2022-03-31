@@ -39,7 +39,6 @@ body {
     position: relative;
     overflow: hidden;
     box-shadow: -5px 5px 30px #3f0a35;
-    
 }
 
 .banner__bg {
@@ -278,11 +277,6 @@ body {
 .banner-vertical__neon-image__box {
     --animate-duration: 0.5s
 }
-
-
-
-
-
 
 /*------------------------------------------------------------------
     Media Queries
