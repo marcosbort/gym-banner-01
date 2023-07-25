@@ -1,4 +1,4 @@
-# gym banner animation
+# Gym banner animation
 
 Running: https://marcosbort.github.io/gym-banner-01/
 
